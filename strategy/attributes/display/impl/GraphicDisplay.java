@@ -1,6 +1,6 @@
-package duck.attributes.display.impl;
+package attributes.display.impl;
 
-import duck.attributes.display.DisplayInterface;
+import attributes.display.DisplayInterface;
 
 public class GraphicDisplay implements DisplayInterface {
 

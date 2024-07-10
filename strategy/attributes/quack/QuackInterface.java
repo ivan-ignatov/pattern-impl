@@ -1,4 +1,4 @@
-package duck.attributes.quack;
+package attributes.quack;
 
 public interface QuackInterface {
 

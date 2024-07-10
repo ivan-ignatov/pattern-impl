@@ -1,6 +1,6 @@
-package duck.attributes.fly.impl;
+package attributes.fly.impl;
 
-import duck.attributes.fly.FlyInterface;
+import attributes.fly.FlyInterface;
 
 public class WingFly implements FlyInterface {
 

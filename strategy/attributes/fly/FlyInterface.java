@@ -1,4 +1,4 @@
-package duck.attributes.fly;
+package attributes.fly;
 
 public interface FlyInterface {
 

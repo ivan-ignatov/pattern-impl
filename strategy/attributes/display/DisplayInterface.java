@@ -1,4 +1,4 @@
-package duck.attributes.display;
+package attributes.display;
 
 public interface DisplayInterface {
 

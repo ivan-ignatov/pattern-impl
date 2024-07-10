@@ -1,7 +1,7 @@
 import duck.Duck;
-import duck.attributes.display.impl.GraphicDisplay;
-import duck.attributes.fly.impl.WingFly;
-import duck.attributes.quack.impl.NormalQuack;
+import attributes.display.impl.GraphicDisplay;
+import attributes.fly.impl.WingFly;
+import attributes.quack.impl.NormalQuack;
 
 public class RunnerClass {
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
 package duck;
-import duck.attributes.display.DisplayInterface;
-import duck.attributes.fly.FlyInterface;
-import duck.attributes.quack.QuackInterface;
+import attributes.display.DisplayInterface;
+import attributes.fly.FlyInterface;
+import attributes.quack.QuackInterface;
 
 public class Duck {
 

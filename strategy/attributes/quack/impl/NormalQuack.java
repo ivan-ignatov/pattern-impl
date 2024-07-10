@@ -1,6 +1,6 @@
-package duck.attributes.quack.impl;
+package attributes.quack.impl;
 
-import duck.attributes.quack.QuackInterface;
+import attributes.quack.QuackInterface;
 
 public class NormalQuack implements QuackInterface{
 
