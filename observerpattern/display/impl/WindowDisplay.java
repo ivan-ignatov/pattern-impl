@@ -1,9 +1,17 @@
 package observerpattern.display.impl;
 
 import observerpattern.display.IDisplay;
+import observerpattern.observable.impl.WeatherStation;
 import observerpattern.observer.IObserver;
 
 public class WindowDisplay implements IDisplay, IObserver {
+
+    private Integer temperature;
+    private WeatherStation weatherStation;
+
+    public WindowDisplay(WeatherStation weatherStation) {
+        this.weatherStation = weatherStation;
+    }
 
     @Override
     public void display() {
@@ -19,9 +27,9 @@ public class WindowDisplay implements IDisplay, IObserver {
                         "     | |    |                    (_   _    _)                  |    | |\r\n" + //
                         "     | |    |                   / /(_) (__)                    |    | |\r\n" + //
                         "     | |    |                  / / / / / /                     |    | |\r\n" + //
-                        "     | |    |                 / / / / / /                      |    | |\n" + //
+                        "     | |    |                 / / / / / /                      |    | |\r\n" + //
                         "     | |    |                                                  |    | |\r\n" + //
-                        "     | |    |                                                  |    | |\r\n" + //
+                        "     | |    |                     " + this.temperature + " Degrees                     |    | |\r\n" + //
                         "     | |    |            __________________________            |    | |\r\n" + //
                         "     | |    |           |  |  |  |  |  |  |  |  |  |           |    | |\r\n" + //
                         "     | |    '.__________|__|__|__|__|__|__|__|__|__|__________.'    | |\r\n" + //
@@ -36,6 +44,7 @@ public class WindowDisplay implements IDisplay, IObserver {
     }
     
     public void update() {
+        this.temperature = this.weatherStation.getTemperature();
         display();
     }
 }

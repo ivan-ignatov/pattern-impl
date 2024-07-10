@@ -8,6 +8,8 @@ import observerpattern.observer.IObserver;
 
 public class WeatherStation implements IObservable {
 
+    private Integer temperature;
+
     private List<IObserver> observerList = new ArrayList<>();
 
     public void addObserver(IObserver observer) {
@@ -18,8 +20,15 @@ public class WeatherStation implements IObservable {
         observerList.remove(observer);
     }
     
-    public void notifyObservers(){
+    public void notifyObservers() {
         observerList.forEach(IObserver::update);
     }
-     
+    
+    public Integer getTemperature() {
+        return temperature;
+    }
+
+    public void setTemperature(Integer temperature) {
+        this.temperature = temperature;
+    }
 }

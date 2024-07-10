@@ -12,10 +12,10 @@ public class StrategyRunner {
         WingFly wingFly = new WingFly();
         NormalQuack normalQuack = new NormalQuack();
 
-        Duck duck = new Duck(graphicDisplay, wingFly, normalQuack);
+        Duck cityDuck = new Duck(graphicDisplay, wingFly, normalQuack);
 
-        duck.display();
-        duck.fly();
-        duck.quack();
+        cityDuck.display();
+        cityDuck.fly();
+        cityDuck.quack();
     } 
 }
