@@ -1,8 +1,8 @@
-package attributes.display.impl;
+package strategy.display.impl;
 
-import attributes.display.DisplayInterface;
+import strategy.display.DisplayStrategy;
 
-public class GraphicDisplay implements DisplayInterface {
+public class GraphicDisplay implements DisplayStrategy {
 
     @Override
     public void display() {
