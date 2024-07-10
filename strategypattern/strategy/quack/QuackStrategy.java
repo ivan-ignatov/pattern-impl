@@ -1,4 +1,4 @@
-package strategy.quack;
+package strategypattern.strategy.quack;
 
 public interface QuackStrategy {
 

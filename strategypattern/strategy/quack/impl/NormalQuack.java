@@ -1,6 +1,6 @@
-package strategy.quack.impl;
+package strategypattern.strategy.quack.impl;
 
-import strategy.quack.QuackStrategy;
+import strategypattern.strategy.quack.QuackStrategy;
 
 public class NormalQuack implements QuackStrategy{
 

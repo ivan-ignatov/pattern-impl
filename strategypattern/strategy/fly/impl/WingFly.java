@@ -1,6 +1,6 @@
-package strategy.fly.impl;
+package strategypattern.strategy.fly.impl;
 
-import strategy.fly.FlyStrategy;
+import strategypattern.strategy.fly.FlyStrategy;
 
 public class WingFly implements FlyStrategy {
 

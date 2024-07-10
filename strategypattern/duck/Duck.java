@@ -1,7 +1,8 @@
-package duck;
-import strategy.display.DisplayStrategy;
-import strategy.fly.FlyStrategy;
-import strategy.quack.QuackStrategy;
+package strategypattern.duck;
+
+import strategypattern.strategy.display.DisplayStrategy;
+import strategypattern.strategy.fly.FlyStrategy;
+import strategypattern.strategy.quack.QuackStrategy;
 
 public class Duck {
 

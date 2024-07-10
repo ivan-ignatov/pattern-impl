@@ -1,4 +1,4 @@
-package strategy.display;
+package strategypattern.strategy.display;
 
 public interface DisplayStrategy {
 

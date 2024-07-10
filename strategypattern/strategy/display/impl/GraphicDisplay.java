@@ -1,6 +1,6 @@
-package strategy.display.impl;
+package strategypattern.strategy.display.impl;
 
-import strategy.display.DisplayStrategy;
+import strategypattern.strategy.display.DisplayStrategy;
 
 public class GraphicDisplay implements DisplayStrategy {
 

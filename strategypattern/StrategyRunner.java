@@ -1,9 +1,12 @@
-import duck.Duck;
-import strategy.display.impl.GraphicDisplay;
-import strategy.fly.impl.WingFly;
-import strategy.quack.impl.NormalQuack;
+package strategypattern;
 
-public class RunnerClass {
+import strategypattern.duck.Duck;
+import strategypattern.strategy.display.impl.GraphicDisplay;
+import strategypattern.strategy.fly.impl.WingFly;
+import strategypattern.strategy.quack.impl.NormalQuack;
+
+public class StrategyRunner {
+    
     public static void main(String[] args) {
         GraphicDisplay graphicDisplay = new GraphicDisplay();
         WingFly wingFly = new WingFly();
