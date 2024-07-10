@@ -12,11 +12,10 @@ public class PhoneDisplay implements IDisplay, IObserver {
 
     @Override
     public void display() {
-        System.out.println(phoneModel + "/ "+ temperature + " Celsius\r\n" +
+        System.out.println("Model " + phoneModel + " / "+ temperature + " Degrees Celsius\r\n" +
                         "         _.-----------._      \r\n" + //
                         "      .-'               `-.   \r\n" + //
-                        "    .'                     `. \r\n" + //
-                        "   |   ___                   |\r\n" + //
+                        "    .' ___                 `. \r\n" + //
                         "   |  (_M_) M O T O R O L A  |\r\n" + //
                         "   | .---------------------. |\r\n" + //
                         "   | |         __   _      | |\r\n" + //
