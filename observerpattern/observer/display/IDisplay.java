@@ -1,4 +1,4 @@
-package observerpattern.display;
+package observerpattern.observer.display;
 
 public interface IDisplay {
     

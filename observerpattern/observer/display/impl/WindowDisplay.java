@@ -1,8 +1,8 @@
-package observerpattern.display.impl;
+package observerpattern.observer.display.impl;
 
-import observerpattern.display.IDisplay;
 import observerpattern.observable.impl.WeatherStation;
 import observerpattern.observer.IObserver;
+import observerpattern.observer.display.IDisplay;
 
 public class WindowDisplay implements IDisplay, IObserver {
 

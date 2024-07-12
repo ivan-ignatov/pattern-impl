@@ -1,16 +1,16 @@
 package strategypattern.duck;
 
-import strategypattern.strategy.display.DisplayStrategy;
-import strategypattern.strategy.fly.FlyStrategy;
-import strategypattern.strategy.quack.QuackStrategy;
+import strategypattern.strategies.displaying.DisplayingStrategy;
+import strategypattern.strategies.flying.FlyingStrategy;
+import strategypattern.strategies.quacking.QuackingStrategy;
 
 public class Duck {
 
-    DisplayStrategy displayInterface;
-    FlyStrategy flyInterface;
-    QuackStrategy quackInterface;
+    DisplayingStrategy displayInterface;
+    FlyingStrategy flyInterface;
+    QuackingStrategy quackInterface;
     
-    public Duck(DisplayStrategy displayInterface, FlyStrategy flyInterface, QuackStrategy quackInterface) {
+    public Duck(DisplayingStrategy displayInterface, FlyingStrategy flyInterface, QuackingStrategy quackInterface) {
         this.displayInterface = displayInterface;
         this.flyInterface = flyInterface;
         this.quackInterface = quackInterface;

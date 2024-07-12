@@ -1,8 +1,8 @@
-package strategypattern.strategy.display.impl;
+package strategypattern.strategies.displaying.impl;
 
-import strategypattern.strategy.display.DisplayStrategy;
+import strategypattern.strategies.displaying.DisplayingStrategy;
 
-public class GraphicDisplay implements DisplayStrategy {
+public class GraphicDisplaying implements DisplayingStrategy {
 
     @Override
     public void display() {

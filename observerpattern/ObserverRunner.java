@@ -1,8 +1,8 @@
 package observerpattern;
 
-import observerpattern.display.impl.PhoneDisplay;
-import observerpattern.display.impl.WindowDisplay;
 import observerpattern.observable.impl.WeatherStation;
+import observerpattern.observer.display.impl.PhoneDisplay;
+import observerpattern.observer.display.impl.WindowDisplay;
 
 public class ObserverRunner {
 
