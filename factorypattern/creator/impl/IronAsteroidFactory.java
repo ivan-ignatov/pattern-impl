@@ -16,7 +16,8 @@ public class IronAsteroidFactory implements AsteroidFactory {
         IronAsteroid asteroid = new IronAsteroid();
         addAsteroidSize(asteroid, gameLevel);
         addAsteroidName(asteroid);
-
+        addAsteroidImage(asteroid);
+        
         return asteroid;
     }
     
@@ -39,7 +40,12 @@ public class IronAsteroidFactory implements AsteroidFactory {
     
     private void addAsteroidName(IronAsteroid asteroid) {
         String name = RandomUtils.generateName();
-        
+
         asteroid.setName(name);
+    }
+    
+    private void addAsteroidImage(IronAsteroid asteroid) {
+        
+        asteroid.setImage(RandomUtils.generateImage());
     }
 }
