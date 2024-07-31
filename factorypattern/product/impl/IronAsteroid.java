@@ -16,9 +16,9 @@ public class IronAsteroid implements Asteroid {
     @Override
     public void printData() {
         System.out.println(
-                String.format("Asteroid %s:\ntype: %s\nsize: %.2f meters\n", this.name, this.type, this.size));
+                String.format("Asteroid %s:%ntype: %s%nsize: %.2f meters%n", this.name, this.type, this.size));
     }
-    
+
     @Override
     public void printImage() {
         System.out.println(this.image);
