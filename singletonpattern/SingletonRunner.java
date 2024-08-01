@@ -7,10 +7,10 @@ public class SingletonRunner {
         ResourceManager manager = ResourceManager.getInstance();
         manager.takeResources(100);
 
-        System.out.println("The system currently has " + manager.getAvailableResources() + " free resources.\n");
+        System.out.println("Taking 100 resources. Currently free: " + manager.getAvailableResources());
 
         manager.freeResources(464);
-        System.out.println("The system currently has " + manager.getAvailableResources() + " free resources.\n");
+        System.out.println("Added 464 resources. Currently free: " + manager.getAvailableResources());
 
         System.out.println("Taking 1500 resources.");
         manager.takeResources(1500);
